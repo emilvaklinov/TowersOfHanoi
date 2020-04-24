@@ -19,16 +19,33 @@ class TowersOfHanoiTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func checkTower(dest: Stack<Int>, numberOfDisks: Int) -> Bool {
+        var match = true
+        var index = 1
+        while match && dest.size() > 0 && index <= numberOfDisks {
+            match = dest.pop() == index
+            index += 1
         }
+        return match
     }
-
+    
+    func testRecursiveTowerOfHanoi() {
+//        let numberOfDisks = 4
+//        let destStack:Stack<Int> = Stack<Int>()
+//
+//        tower(numberOfDisks, source:.Tower1, dest:.Tower3 , temp:.Tower2, finalDest:.Tower3, destStack)
+//        XCTAssert(checkTower(dest: destStack, numberOfDisks: numberOfDisks), "Pass")
+    }
+    
+    func testInteractiveTowerOfHanoi() {
+//        let towerStacks: [Tower: Stack<Int>] = [.Tower1: Stack<Int>(), .Tower2: Stack<Int>(), .Tower3: Stack<Int>()]
+//
+//        let numberOfDisks = 4
+//        for var index = numberOfDisks; index > 0; index -= 1 {
+//            towerStacks[.Tower1]?.push(index)
+        }
+        
+//        towerInteractive(numberOfDisks, towerStacks) //results in tower 2 as the destination
+//        XCTAssert(checkTower(towerStacks[.Tower2]!, numberOfDisks: numberOfDisks), "Pass")
+//    }
 }

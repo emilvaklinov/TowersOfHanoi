@@ -13,6 +13,8 @@
 		4877C7FA2451DA33006FF1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4877C7F92451DA33006FF1F5 /* Assets.xcassets */; };
 		4877C7FD2451DA33006FF1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4877C7FB2451DA33006FF1F5 /* LaunchScreen.storyboard */; };
 		4877C8082451DA33006FF1F5 /* TowersOfHanoiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877C8072451DA33006FF1F5 /* TowersOfHanoiTests.swift */; };
+		4877C8132451DB5E006FF1F5 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877C8122451DB5E006FF1F5 /* Stack.swift */; };
+		4877C8152451DC02006FF1F5 /* SwiftTowerTestStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877C8142451DC02006FF1F5 /* SwiftTowerTestStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4877C8032451DA33006FF1F5 /* TowersOfHanoiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowersOfHanoiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4877C8072451DA33006FF1F5 /* TowersOfHanoiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowersOfHanoiTests.swift; sourceTree = "<group>"; };
 		4877C8092451DA33006FF1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4877C8122451DB5E006FF1F5 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		4877C8142451DC02006FF1F5 /* SwiftTowerTestStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTowerTestStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				4877C7F92451DA33006FF1F5 /* Assets.xcassets */,
 				4877C7FB2451DA33006FF1F5 /* LaunchScreen.storyboard */,
 				4877C7FE2451DA33006FF1F5 /* Info.plist */,
+				4877C8122451DB5E006FF1F5 /* Stack.swift */,
 			);
 			path = TowersOfHanoi;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			children = (
 				4877C8072451DA33006FF1F5 /* TowersOfHanoiTests.swift */,
 				4877C8092451DA33006FF1F5 /* Info.plist */,
+				4877C8142451DC02006FF1F5 /* SwiftTowerTestStack.swift */,
 			);
 			path = TowersOfHanoiTests;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4877C7F52451DA32006FF1F5 /* ViewController.swift in Sources */,
+				4877C8132451DB5E006FF1F5 /* Stack.swift in Sources */,
 				4877C7F32451DA32006FF1F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4877C8152451DC02006FF1F5 /* SwiftTowerTestStack.swift in Sources */,
 				4877C8082451DA33006FF1F5 /* TowersOfHanoiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
