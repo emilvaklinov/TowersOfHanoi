@@ -74,3 +74,24 @@ enum GameMode: Int {
   }
 }
 
+class GameLogic: NSObject {
+
+// Singleton
+static let defaultModel = GameLogic()
+
+// The game state NFA
+private let gameStateNFA: [GameState:[GameState]] = {
+  // Prepared -> Prepared holds in cases like adjusting game level
+  let preparePrevStates = [GameState.Empty, GameState.Prepared, GameState.Ended(hasWon: true),
+    GameState.Ended(hasWon: false), GameState.Paused]
+  let startedPrevStates = [GameState.Prepared, GameState.Paused]
+  let pausedPrevStates = [GameState.Started, GameState.Resumed]
+  let resumedPrevStates = [GameState.Paused]
+  let wonPrevStates = [GameState.Started, GameState.Resumed]
+  let lostPrevStates = [GameState.Started, GameState.Resumed]
+  return [GameState.Prepared:preparePrevStates, GameState.Started:startedPrevStates,
+    GameState.Paused:pausedPrevStates, GameState.Resumed:resumedPrevStates,
+    GameState.Ended(hasWon: true):wonPrevStates, GameState.Ended(hasWon: false):lostPrevStates]
+}() // state -> list of possible previous states
+
+}
