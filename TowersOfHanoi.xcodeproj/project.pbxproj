@@ -16,6 +16,8 @@
 		4877C8132451DB5E006FF1F5 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877C8122451DB5E006FF1F5 /* Stack.swift */; };
 		4877C8152451DC02006FF1F5 /* SwiftTowerTestStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877C8142451DC02006FF1F5 /* SwiftTowerTestStack.swift */; };
 		48A56DFD2453350300487DB2 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A56DFC2453350300487DB2 /* GameLogic.swift */; };
+		48A56DFF2453374C00487DB2 /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A56DFE2453374C00487DB2 /* Disk.swift */; };
+		48A56E012453388500487DB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A56E002453388500487DB2 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		4877C8122451DB5E006FF1F5 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		4877C8142451DC02006FF1F5 /* SwiftTowerTestStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTowerTestStack.swift; sourceTree = "<group>"; };
 		48A56DFC2453350300487DB2 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		48A56DFE2453374C00487DB2 /* Disk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disk.swift; sourceTree = "<group>"; };
+		48A56E002453388500487DB2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				4877C7FE2451DA33006FF1F5 /* Info.plist */,
 				4877C8122451DB5E006FF1F5 /* Stack.swift */,
 				48A56DFC2453350300487DB2 /* GameLogic.swift */,
+				48A56DFE2453374C00487DB2 /* Disk.swift */,
+				48A56E002453388500487DB2 /* Constants.swift */,
 			);
 			path = TowersOfHanoi;
 			sourceTree = "<group>";
@@ -207,9 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4877C7F52451DA32006FF1F5 /* ViewController.swift in Sources */,
+				48A56DFF2453374C00487DB2 /* Disk.swift in Sources */,
 				4877C8132451DB5E006FF1F5 /* Stack.swift in Sources */,
 				48A56DFD2453350300487DB2 /* GameLogic.swift in Sources */,
 				4877C7F32451DA32006FF1F5 /* AppDelegate.swift in Sources */,
+				48A56E012453388500487DB2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
