@@ -39,5 +39,7 @@ struct UIConstant {
   static let diskBorderColor = 0x9BD29A
   static let diskCornerRadius = 4.0
   static let diskBorderWidth = 1.5
-
+  static let buttonCornerRadius = 3.0
+    static let buttonHeight = 44.0
+    static let buttonWidth = 200.0
 }
